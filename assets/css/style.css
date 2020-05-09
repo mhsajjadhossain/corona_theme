@@ -311,7 +311,7 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #0F1013 !important;
+	background: #ffffff !important;
 	z-index: 9999999;
 	border-bottom: 1px solid rgb(25, 26, 31);
 	-webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
@@ -336,7 +336,7 @@ p {
 		-webkit-transform: translateY(-100%);
 		transform: translateY(-100%)
 	}
-
+	
 	100% {
 		-webkit-transform: translateY(0%);
 		transform: translateY(0%)
@@ -348,7 +348,7 @@ p {
 		-webkit-transform: translateY(-100%);
 		transform: translateY(-100%)
 	}
-
+	
 	100% {
 		-webkit-transform: translateY(0%);
 		transform: translateY(0%)
@@ -356,8 +356,17 @@ p {
 }
 
 /*======== INDEX TWO NAV PART =========*/
+.indexTwoNav.navigation1.sticky {
+	background: #0F1013 !important;
+}
 .indexTwoNav .navbar-nav .nav-item a {
 	color: #ffffff;
+}
+.indexTwoNav.navbar .navbar-nav .nav-item .submenu {
+	background: #333647;
+}
+.indexTwoNav.navbar .navbar-nav .nav-item .submenu li a {
+	border-bottom: 1px solid #444;
 }
 
 
