@@ -1,0 +1,831 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .banner_txt {
+        padding-top: 198px;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_txt {
+        padding-top: 137px;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    .update_title h5 {
+        font-size: 17px;
+    }
+
+    .update_news {
+        overflow-x: hidden;
+    }
+
+    .about_table {
+        height: 360px;
+    }
+
+    .col_1 {
+        padding-right: 30px;
+    }
+
+    .corona_table thead th span {
+        font-size: 14px;
+    }
+
+    .corona_table tbody td .con_name {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .symptoms_img img {
+        width: 100%;
+        margin-top: 57px;
+    }
+
+    .single_symptom {
+        padding-top: 68px;
+    }
+
+    .doctor_info a {
+        padding: 16px 30px;
+    }
+
+    .tab_control_wrap a {
+        font-size: 15px;
+    }
+
+    .tab_control_wrap a:nth-of-type(1)::before {
+        top: 55px;
+    }
+
+    .tab_control_wrap a:nth-of-type(5)::before {
+        bottom: 55px;
+    }
+
+    .todo_head h4 {
+        font-size: 16px;
+    }
+
+    .to-do-list ul li .list_itms {
+        font-size: 14px;
+    }
+
+    .widget_title h3 {
+        font-size: 18px;
+    }
+
+    .contact_link a {
+        font-size: 16px;
+    }
+
+    .footer_link_list ul a {
+        font-size: 15px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        position: relative;
+        background: #f2f1ff !important;
+    }
+
+    .navbar-brand img {
+        margin-top: -10px;
+        margin-bottom: -39px;
+    }
+
+    /* toggle icon css*/
+    .navbar .navbar-toggler {
+        padding: 0px 0px 4px 0px;
+        -webkit-transform: all 0.4s linear;
+        transform: all 0.4s linear;
+        border: 0;
+    }
+
+    .navbar .navbar-toggler .icon-bar {
+        width: 30px;
+        height: 2px;
+        background-color: #a12dd6;
+        display: block;
+        margin: 5px 0;
+        position: relative;
+        -webkit-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(1) {
+        -webkit-transform: rotate(46deg);
+        transform: rotate(46deg);
+        top: 7px;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(3) {
+        -webkit-transform: rotate(134deg);
+        transform: rotate(134deg);
+        top: -7px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 130%;
+        left: 30px;
+        right: 30px;
+        border-bottom: 3px solid #a12dd6;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+    }
+
+    .sub-nav-toggler {
+        float: right;
+        background: transparent;
+        border: 0;
+        font-size: 34px;
+        color: #444;
+        height: 100%;
+        margin-top: -4px;
+        line-height: 1;
+        display: block;
+    }
+
+    .nav-item:hover .sub-nav-toggler {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item .submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        display: none;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+
+    .navigation1.sticky .navbar-nav .nav-item a,
+    .navbar .navbar-nav .nav-item a {
+        margin-top: 0;
+        padding: 10px 0;
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-left: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover {
+        background: #a12dd6;
+        color: #ffffff;
+    }
+
+    .banner_txt {
+        padding: 60px 0 65px 0;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .update_title h5 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    .update_title h5::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 100%;
+        width: 300px;
+        height: 2px;
+        background: #ddd;
+        transform: translateX(-50%);
+    }
+
+    .update_news {
+        overflow-x: hidden;
+        background: transparent;
+    }
+
+    .about_table {
+        height: 360px;
+    }
+    .nicescroll-cursors {
+        max-height: 40px;
+    }
+    .corona_table thead th {
+        text-align: center;
+    }
+
+    .corona_table tbody td:first-child {
+        text-align: center;
+    }
+
+    .corona_table thead th span {
+        font-size: 14px;
+    }
+
+    .corona_table tbody td .con_name {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .symptoms_img img {
+        width: 100%;
+        margin-top: 57px;
+    }
+
+    .symptom_contents::after {
+        top: 48%;
+    }
+
+    .single_symptom {
+        padding-top: 30px;
+    }
+
+    .single_symptom.pb-15 {
+        padding-bottom: 75px;
+    }
+
+    .doctor_info a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .doctor_info a i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .tab_control_wrap a {
+        font-size: 15px;
+    }
+
+    .tab_control_wrap a:nth-of-type(1)::before {
+        top: 55px;
+    }
+
+    .tab_control_wrap a:nth-of-type(5)::before {
+        bottom: 55px;
+    }
+
+    .do_and_dont_content {
+        margin-top: 30px;
+    }
+
+    .do_and_dont_content .section_title {
+        text-align: center;
+    }
+
+    .todo_head h4 {
+        font-size: 20px;
+    }
+
+    .to-do-list ul li .list_itms {
+        font-size: 16px;
+    }
+
+    .widget_title h3 {
+        font-size: 18px;
+    }
+
+    .contact_link a {
+        font-size: 16px;
+    }
+
+    .footer_link_list ul a {
+        font-size: 15px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        position: relative;
+        background: #f2f1ff !important;
+    }
+
+    .navbar-brand img {
+        margin-top: -10px;
+        margin-bottom: -39px;
+    }
+
+    /* toggle icon css*/
+    .navbar .navbar-toggler {
+        padding: 0px 0px 4px 0px;
+        -webkit-transform: all 0.4s linear;
+        transform: all 0.4s linear;
+        border: 0;
+    }
+
+    .navbar .navbar-toggler .icon-bar {
+        width: 30px;
+        height: 2px;
+        background-color: #a12dd6;
+        display: block;
+        margin: 5px 0;
+        position: relative;
+        -webkit-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(1) {
+        -webkit-transform: rotate(46deg);
+        transform: rotate(46deg);
+        top: 7px;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(3) {
+        -webkit-transform: rotate(134deg);
+        transform: rotate(134deg);
+        top: -7px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 130%;
+        left: 30px;
+        right: 30px;
+        border-bottom: 3px solid #a12dd6;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+    }
+
+    .sub-nav-toggler {
+        float: right;
+        background: transparent;
+        border: 0;
+        font-size: 34px;
+        color: #444;
+        height: 100%;
+        margin-top: -4px;
+        line-height: 1;
+        display: block;
+    }
+
+    .nav-item:hover .sub-nav-toggler {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item .submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        display: none;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+
+    .navigation1.sticky .navbar-nav .nav-item a,
+    .navbar .navbar-nav .nav-item a {
+        margin-top: 0;
+        padding: 10px 0;
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-left: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover {
+        background: #a12dd6;
+        color: #ffffff;
+    }
+
+    .banner_txt {
+        padding: 60px 0 65px 0;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .update_title h5 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    .update_title h5::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 100%;
+        width: 300px;
+        height: 2px;
+        background: #ddd;
+        transform: translateX(-50%);
+    }
+
+    .update_news {
+        overflow-x: hidden;
+        background: transparent;
+    }
+
+    .about_table {
+        height: 360px;
+    }
+
+    .nicescroll-cursors {
+        max-height: 40px !important;
+    }
+
+    .corona_table thead th {
+        text-align: center;
+    }
+
+    .col_1,
+    .col_2,
+    .col_3,
+    .col_4 {
+        padding: 18px 0;
+    }
+
+    .corona_table tbody td:first-child {
+        text-align: center;
+    }
+
+    .corona_table thead th span {
+        font-size: 14px;
+    }
+
+    .corona_table tbody td .con_name {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    .symptoms_img {
+        text-align: center;
+        width: 100%;
+    }
+    .symptoms_img img {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .symptom_contents::after {
+        top: 48%;
+    }
+
+    .single_symptom {
+        padding-top: 30px;
+    }
+
+    .single_symptom.pb-15 {
+        padding-bottom: 75px;
+    }
+    
+    .doctor_info a {
+        padding: 16px 45px;
+        font-size: 18px;
+    }
+
+
+    .doctor_info a i {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+
+    .tab_control_wrap a {
+        font-size: 15px;
+    }
+
+    .tab_control_wrap a:nth-of-type(1)::before {
+        top: 55px;
+    }
+
+    .tab_control_wrap a:nth-of-type(5)::before {
+        bottom: 55px;
+    }
+
+    .do_and_dont_content {
+        margin-top: 30px;
+    }
+
+    .do_and_dont_content .section_title {
+        text-align: center;
+    }
+
+    .todo_head h4 {
+        font-size: 20px;
+    }
+
+    .to-do-list ul li .list_itms {
+        font-size: 16px;
+    }
+
+    .widget_title h3 {
+        font-size: 20px;
+    }
+
+    .contact_link a {
+        font-size: 18px;
+    }
+
+    .footer_link_list ul a {
+        font-size: 16px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+    .navbar {
+        position: relative;
+        background: #f2f1ff !important;
+    }
+
+    .navbar-brand img {
+        margin-top: -10px;
+        margin-bottom: -43px;
+        margin-left: -39px;
+    }
+
+    .navigation1.sticky .navbar-brand img {
+        /* margin-top: 30px; */
+        margin-bottom: -43px;
+    }
+
+    /* toggle icon css*/
+    .navbar .navbar-toggler {
+        padding: 0px 0px 4px 0px;
+        -webkit-transform: all 0.4s linear;
+        transform: all 0.4s linear;
+        border: 0;
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-toggler .icon-bar {
+        width: 30px;
+        height: 2px;
+        background-color: #a12dd6;
+        display: block;
+        margin: 5px 0;
+        position: relative;
+        -webkit-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(1) {
+        -webkit-transform: rotate(46deg);
+        transform: rotate(46deg);
+        top: 7px;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .navbar .navbar-toggler.active .icon-bar:nth-of-type(3) {
+        -webkit-transform: rotate(134deg);
+        transform: rotate(134deg);
+        top: -7px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 130%;
+        left: 0;
+        right: 0;
+        border-bottom: 3px solid #a12dd6;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+    }
+
+    .sub-nav-toggler {
+        float: right;
+        background: transparent;
+        border: 0;
+        font-size: 34px;
+        color: #444;
+        height: 100%;
+        margin-top: -4px;
+        line-height: 1;
+        display: block;
+    }
+
+    .nav-item:hover .sub-nav-toggler {
+        color: #ffffff;
+    }
+
+    .navbar .navbar-nav .nav-item .submenu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        display: none;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+
+    .navigation1.sticky .navbar-nav .nav-item a,
+    .navbar .navbar-nav .nav-item a {
+        margin-top: 0;
+        padding: 10px 0;
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-left: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover {
+        background: #a12dd6;
+        color: #ffffff;
+    }
+
+    .banner_txt {
+        padding: 40px 0 45px 0;
+    }
+    .banner_txt h2 {
+        font-size: 48px;
+    }
+    .banner_txt h1 {
+        font-size: 48px;
+    }
+    .banner_img {
+        display: none;
+    }
+
+    .update_title h5 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    .update_title h5::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 100%;
+        width: 300px;
+        height: 2px;
+        background: #ddd;
+        transform: translateX(-50%);
+    }
+
+    .update_news {
+        overflow-x: hidden;
+        background: transparent;
+    }
+
+    .update_news p {
+        padding: 17px 0;
+    }
+    .section_title h3 {
+        font-size: 26px;
+    }
+    .about_table {
+        height: 360px;
+    }
+
+    .nicescroll-cursors {
+        max-height: 40px !important;
+    }
+    #ascrail2000-hr {
+        top: 1842px !important;
+    }
+    .corona_table thead th {
+        text-align: center;
+    }
+
+    .col_1,
+    .col_2,
+    .col_3,
+    .col_4 {
+        padding: 18px 10px;
+        font-size: 16px;
+    }
+
+    .corona_table tbody td:first-child {
+        text-align: center;
+    }
+
+    .corona_table thead th span {
+        font-size: 14px;
+    }
+
+    .corona_table tbody td .con_name {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .corona_table tbody td .count {
+        font-size: 14px;
+    }
+    .symptoms_area {
+        padding-bottom: 78px;
+    }
+    .symptoms_img img {
+        width: 100%;
+    }
+
+    .symptom_contents::before {
+        display: none;
+    }
+    .symptom_contents::after {
+        display: none;
+    }
+
+    .single_symptom {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .single_symptom.pb-15 {
+        padding-bottom: 0px;
+    }
+    .symptom_title h3 {
+        display: block;
+    }
+    .symptom_title h3 span {
+        display: none;
+    }
+    .doctor_info a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+
+    .doctor_info a i {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+
+    .tab_control_wrap a {
+        font-size: 15px;
+    }
+
+    .tab_control_wrap a:nth-of-type(1)::before {
+        top: 55px;
+    }
+
+    .tab_control_wrap a:nth-of-type(5)::before {
+        bottom: 55px;
+    }
+
+    .single-card .card-header h2 .colap_icon {
+        right: -15px;
+    }
+
+    .do_and_dont_content {
+        margin-top: 30px;
+    }
+
+    .do_and_dont_content .section_title {
+        text-align: center;
+    }
+
+    .todo_head h4 {
+        font-size: 20px;
+    }
+
+    .to-do-list ul li .list_itms {
+        font-size: 16px;
+    }
+
+    .widget_title h3 {
+        font-size: 20px;
+    }
+
+    .contact_link a {
+        font-size: 14px;
+    }
+
+    .footer_link_list ul a {
+        font-size: 14px;
+    }
+    .copyright_text p {
+        line-height: 26px;
+    }
+}
